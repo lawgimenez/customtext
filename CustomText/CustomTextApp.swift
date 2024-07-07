@@ -25,7 +25,7 @@ struct CustomTextApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DetailsView()
         }
         .modelContainer(sharedModelContainer)
     }
